@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+
+.kort1{
+    position:fixed;
+    top: 295px;
+    left: 88px;
+}
+
+.kort2{
+    position: fixed;
+    top: 295px;
+    left: 885px;
+}
+
+.kort3{
+    position: fixed;
+    top: 729px;
+    left: 88px;
+}
+
+.kort4{
+    position:fixed;
+    top: 729px;
+    left: 885px;
+}
+
+.kort5{
+    position: fixed;
+    top: 1162px;
+    left: 88px;
+}
+
+.kort6{
+    position: fixed;
+    top: 1162px;
+    left: 885px;
+}
+
+.kort7{
+    position: fixed;
+    top: 1596px;
+    left: 88px;
+}
+
+.kort8{
+    position: fixed;
+    top: 1596px;
+    left: 885px;
+}
+
+.timer{
+    position:fixed;
+    top: 2015px;
+    left: 1377.45px;
+    box-sizing: border-box;
+}
+
+.next{
+    border: 0;
+    display: flex;
+    width: 178.14px;
+    height: 57.201px;
+    padding: 28.1px 65.372px;
+    justify-content: center;
+    align-items: center;
+    gap: 8.172px;
+    flex-shrink: 0;
+    position: fixed;
+    top:2015px;
+    left: 1447.21px;
+    border-radius: 54.038px;
+    background: #FFA538;
+    color: #000;
+    text-align: center;
+    font-family: Outfit;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.21px;
+    text-transform: uppercase;
+}

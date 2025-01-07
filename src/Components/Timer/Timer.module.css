@@ -1,0 +1,22 @@
+.timer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .timer svg {
+    transform: rotate(-90deg); /* Rotate to make the top of the circle the starting point */
+  }
+  
+  .timer .background {
+    stroke-opacity:0.35;
+  }
+  
+  .timer .progress {
+    transition: stroke-dashoffset 0.5s ease;
+  }
+  .timer text {
+    font-size: 10px; /* Make the text larger */
+    font-family: Arial, sans-serif;
+    fill: #333;
+  }

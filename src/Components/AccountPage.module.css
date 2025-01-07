@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+
+.container{
+    display:flex;
+    width:3840px;
+    height:2160px;
+    background-color: #F6f3ee;
+}
+
+.trash{
+    position:fixed;
+    top:100px;
+    left:88px;
+    fill: #2E2B96;
+}
+.trash:hover{
+    fill: red;
+    cursor:pointer;
+}
+.back{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8.433px;
+    position:fixed;
+    top:85.44px;
+    left:168px;
+    width: 165.28px;
+    height:86px;
+    border-radius: 55.766px;
+    border:none;
+    background: #FFA538;
+    color: #000;
+    text-align: center;
+    font-family: Outfit;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.22px;
+    text-transform: uppercase;
+}
+
+.line{
+    width:3840px;
+    position: fixed;
+    top: 255px;
+    left:0px;
+    border: 2.11px solid #555555
+}
+
+.accountName{
+    width: 1788px;
+    height: 60px;
+    position:fixed;
+    top: 78px;
+    left: 1026.41px;
+    color: #2E2B96;
+text-align: center;
+font-family: Outfit;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 0.48px;
+box-sizing: border-box;
+margin: 0;
+}
+
+.date{
+    margin:0;
+    position:fixed;
+    width: 517.89px;
+    height: 39px;
+    top: 148px;
+    left: 1661px;
+    color: #2E2B96;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 500;
+    line-height: 109.423%; /* 39.392px */
+    letter-spacing: 0.36px;
+}
+
+.logo{
+    width: 656px;
+    height:87px;
+    position:fixed;
+    top:86px;
+    left:3098px;
+}
+
+.info{
+    width: 1654px;
+    height: 853px;
+    position:fixed;
+    top: 332px;
+    left:88px;
+    border-radius: 31.71px;
+    background-color: #2e2b96;
+}
+.spend, .clicks, .reach, .impressions, .ctr, .cpc, .cardInfo, .payment, .payment, .leads, .pricePerLead, .roas, .purchases{
+    color: #F6F3EE;
+    font-family: Mulish;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 152%; /* 48.64px */
+    letter-spacing: 0.32px;
+    position:absolute;
+    margin: 0;
+}
+
+.graphHolder{
+    position:fixed;
+    width:1937px;
+    height:853px;
+    top:332px;
+    left:1817px;
+    box-sizing:border-box;
+    border: 10.57px solid #2e2b96;
+    border-radius: 31.71px;
+}
+
+.graph{
+    position:absolute;
+    height: 650px;
+    width: 1250px;
+    top: 102px;
+    left: 95px;
+}
+.viewBox{
+    width: 464px;
+    height: 272px;
+    position:absolute;
+    top:51px;
+    right:51px;
+    border-radius: 31.71px;
+    background-color: #2E2B96;
+}
+
+.views{
+    position:absolute;
+    top: 34px;
+    left:55px;
+    margin: 0;
+    color: #F6F3EE;
+font-family: Mulish;
+font-size: 32px;
+font-style: normal;
+font-weight: 400;
+line-height: 136%; /* 43.52px */
+letter-spacing: 0.32px;
+}
+
+.avgViews{
+    position: absolute;
+    top: 150px;
+    left: 55px;
+    margin: 0;
+    color: #F6F3EE;
+    font-family: Mulish;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 136%; /* 43.52px */
+    letter-spacing: 0.32px;
+}
+
+.adBox{
+    width:3666px;
+    height: 853px;
+    position:fixed;
+    top: 1232px;
+    left: 88.4px;
+    border-radius: 31.708px;
+    background-color: #2E2B96;
+    
+
+}
+
+.headerBox{
+    position: absolute;
+    width: 3514px;
+    height:70px;
+    left: 72px;
+    top:75px;
+    align-items: center;
+    text-align:center;
+    display:grid;
+    grid-template-columns: 219px 238px 188px 175px 259px 354px 181px 340px 326px 318px 157px 156px 263px 184px 166px;
+    color: #F6F3EE;
+    font-family: Mulish;
+    font-size: 27px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 152%; /* 41.04px */
+    letter-spacing: 0.27px;
+    margin:0;
+    box-sizing:border-box;
+    border: 2px solid #FFF;
+}
+.headerBox p{
+    margin: 0;
+    border-right: 2px solid #FFF;
+}
+.headerBox p:last-child{
+    border-right: none;
+}
+
+.ads{
+    position:absolute;
+    width: 3514px;
+    height: 635px;
+    top:144px;
+    left:72px;
+    box-sizing: border-box;
+    border: 1px solid #FFF;
+    overflow-y: auto;
+    overflow-x:hidden;
+    scrollbar-width: none;
+}
+.ads::-webkit-scrollbar{
+    display: none;
+}

@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+.inputBox{
+    width: 345.93px;
+    height: 86px;
+    display: inline-flex;
+    padding: 28.998px 67.463px;
+    justify-content: center;
+    align-items: center;
+    gap: 8.433px;
+    border-radius: 55.766px;
+    border: 6.746px solid #0B0886;
+    position:fixed;
+    top:85.44px;
+    left:88px;
+    box-sizing: border-box;
+    color: #9A9A9A;
+    text-align: center;
+    font-family: Outfit;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.22px;
+    text-transform: uppercase;
+    background-color: #f6f3ee;
+}
+
+
+.addButton{
+    position:fixed;
+    width: 165.284px;
+    height: 86px;
+top: 85.44px;
+left: 450.61px;
+border: 0;
+box-sizing:border-box;
+display: flex;
+padding: 28.998px 67.463px;
+justify-content: center;
+align-items: center;
+gap: 8.433px;
+border-radius: 55.766px;
+background: #FFA538;
+color: #000;
+text-align: center;
+font-family: Outfit;
+font-size: 22px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+letter-spacing: 0.22px;
+text-transform: uppercase;
+}

@@ -1,0 +1,30 @@
+
+.landingPage{
+    background: #F6F3EE;
+    display: flex;
+    box-sizing: border-box;
+    width: 3840px;
+height: 2160px;
+top: 1564px;
+left: -930px;
+gap: 0px;
+
+}
+
+.line{
+    position:fixed;
+    width: 3840px;
+    height: 0px;
+    top: 255px;
+    left: 0px;
+    border: 2.11px solid #555555;
+    box-sizing: border-box;
+}
+
+.logo{
+    width: 656px;
+    height: 87px;
+    position: fixed;
+    top: 86px;
+    left: 3098px;
+}

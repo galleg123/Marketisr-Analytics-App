@@ -1,0 +1,54 @@
+.timegraphholder{
+    width: 1937px;
+    height: 853px;
+    position: fixed;
+    top: 295px;
+    left: 1817px;
+    gap: 0px;
+    border-radius: 31.71px;
+    border: 10.57px solid #2e2b96;
+    box-sizing: border-box;
+}
+
+.graph{
+    position: relative;
+    top: 80px;
+    left: 80px;
+    display:flex;
+    width: 1700px;
+    height: 80%;
+}
+
+.timer{
+    position:fixed;
+    top: 1041px;
+    left: 3452px;
+    box-sizing: border-box;
+}
+
+
+.button{
+    border: 0;
+    display: flex;
+    width: 178.14px;
+    height: 57.201px;
+    padding: 28.1px 65.372px;
+    justify-content: center;
+    align-items: center;
+    gap: 8.172px;
+    flex-shrink: 0;
+    position: fixed;
+    top:1041px;
+    left: 3521.76px;
+    border-radius: 54.038px;
+    background: #FFA538;
+    color: #000;
+    text-align: center;
+    font-family: Outfit;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.21px;
+    text-transform: uppercase;
+}

@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+
+.kort{
+    width: 740px;
+    height: 374px;
+    border-radius: 31.71px;
+    box-sizing: border-box;
+    background: #2e2b96;
+    flex-shrink: 0;
+}
+.kort h1{
+    position:relative;
+    top:43px;
+    left:55px;
+    width: 517.893px;
+    color: #F6F3EE;
+    font-family: Outfit;
+    font-size: 33.822px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.338px;
+    margin: 0;
+}
+
+.kort h2{
+    position: absolute;
+    top: 100px;
+    left: 55px;
+    width: 481.96px;
+    height: 230.41px;
+    font-family: Mulish;
+    font-size: 27px;
+    font-weight: 500;
+    line-height: 45.7px;
+    letter-spacing: 0.01em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #F6F3EE;
+    margin: 0;
+}
+
+.date{
+    position:absolute;
+    top:43px;
+    left:594.69px;
+    width: 94px;
+    height: 32px;
+    font-family: Mulish;
+    font-size: 22px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 31.59px;
+    letter-spacing: 0.01em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #F6F3EE;
+    margin: 0;
+}
+.time{
+    position:absolute;
+    top: 70.48px;
+    left:628.51px;
+    width:59px;
+    height:32px;
+    font-family: Mulish;
+    font-size: 22px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 31.59px;
+    letter-spacing: 0.01em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color:#F6F3EE;
+    margin: 0;
+}
